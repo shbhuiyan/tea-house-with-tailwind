@@ -30,9 +30,9 @@
       </script>
       
 </head>
-<body class="font-manrope xl:container mx-auto p-4 " >
+<body class="font-manrope box-border" >
     <!-- banner section start here -->
-    <header class="mb-24 md:flex justify-around items-center gap-8">
+    <header class="xl:container mx-auto p-4 mb-24 md:flex justify-around items-center gap-8">
         <!-- banner text section -->
         <div class="md:w-1/2 mb-4 md:m-0">
             <h1 class="font-extrabold text-6xl md:text-7xl lg:text-8xl">It's good tea time at The Tea House</h1>
@@ -57,10 +57,9 @@
 
     </header>
 
-    <main>
+    <main class="xl:container p-4 mx-auto">
       <!-- products section start here -->
       <section class="mb-24">
-
         <!-- products text here -->
         <div class="md:w-3/4 lg:w-2/3 space-y-4 mb-12 mx-auto text-center">
           <h1 class="text-5xl font-extrabold">Our Featured Products</h1>
@@ -79,14 +78,14 @@
           <!-- card-2 -->
           <div class="space-y-2 p-4 bg-gray-100 flex flex-col justify-center items-center rounded-xl">
             <img src="images/tea-2.png" alt="#">
-            <h3 class="text-2xl font-extrabold">Strawberry Tea</h3>
+            <h3 class="md:text-xl text-2xl font-extrabold">Strawberry Tea</h3>
             <p class="text-gray-500 font-semibold">Creamer could be replaced by fresh milk</p>
           </div>
 
           <!-- card-3 -->
           <div class="space-y-2 p-4 bg-gray-100 flex flex-col justify-center items-center rounded-xl">
             <img src="images/tea-3.png" alt="#">
-            <h3 class="text-2xl font-extrabold">Chocolate Tea</h3>
+            <h3 class="md:text-xl text-2xl font-extrabold">Chocolate Tea</h3>
             <p class="text-gray-500 font-semibold">Creamer could be replaced by fresh milk</p>
           </div>
 
@@ -140,7 +139,99 @@
 
       </section>
 
+      <!-- clients section start here -->
+      <section class="hidden w-4/5 mx-auto rounded-xl bg-gradient-to-r from-orange-500 to-red-600">
+        <!-- text here -->
+        <div class="w-[650px] flex flex-col md:flex-row lg:flex-row">
+          <div class="space-y-4 p-8 w-1/2">
+            <h1 class="text-5xl font-extrabold text-white">Meet Our Super Clients</h1>
+            <p class="font-medium text-gray-300">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <div class="bg-white w-fit rounded-lg">
+              <button class="text-xl font-extrabold px-7 py-4 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600">Show All</button>
+            </div>
+          </div>
+  
+          <!-- card here -->
+          <div class="relative">
+            <!-- card 1 -->
+            <div class="absolute -top-4 left-32 opacity-40">
+              <div class="md:w-[400px] relative bg-white space-y-4 px-12 py-4 rounded-xl">
+                <img class="absolute -top-6 -left-6 bg-white p-1 rounded-full" src="images/client.png" alt="">
+                <p class="font-medium text-gray-400">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <div>
+                  <h3 class="font-bold">Ilham Yuda</h3>
+                  <p class="text-gray-400">Businessman</p>
+                </div>
+              </div>
+            </div>
 
+            <!-- card 2 -->
+            <div class="absolute top-20 z-50">
+              <div class="md:w-[400px] relative bg-white space-y-4 px-12 py-4 rounded-xl">
+                <img class="absolute -top-6 -left-6 bg-white p-1 rounded-full" src="images/client.png" alt="">
+                <p class="font-medium text-gray-600">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <div>
+                  <h3 class="font-extrabold">Ilham Yuda</h3>
+                  <p class="text-gray-500 font-bold">Businessman</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="absolute -bottom-8 left-32 opacity-40">
+              <div class="md:w-[400px] relative bg-white space-y-4 px-12 py-4 rounded-xl">
+                <img class="absolute -top-6 -left-6 bg-white p-1 rounded-full" src="images/client.png" alt="">
+                <p class="font-medium text-gray-400">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <div>
+                  <h3 class="font-bold">Ilham Yuda</h3>
+                  <p class="text-gray-400">Businessman</p>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+
+      <!-- event section start here -->
+      <section class="mb-24 w-4/5 mx-auto">
+        <!-- text section -->
+        <div class="md:w-3/4 lg:w-2/3 space-y-4 mb-12 mx-auto text-center">
+          <h1 class="text-5xl font-extrabold">News & Events</h1>
+          <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+        </div>
+
+        <!-- cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-8">
+          <!-- card 1 -->
+          <div class="max-w-72 mx-auto flex flex-col justify-center items-start p-6 rounded-xl shadow-xl border-2 space-y-3">
+            <img src="images/news-1.png" alt="">
+            <p class="text-xs text-gray-500">Feb 05, 2027</p>
+            <h4 class="text-xl font-extrabold">Collecting 8 points for discount</h4>
+            <p class="font-medium text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+            <button class="font-bold">Learn More</button>
+          </div>
+          <!-- card 2 -->
+          <div class="max-w-72 mx-auto flex flex-col justify-center items-start p-6 rounded-xl shadow-xl border-2 space-y-3">
+            <img src="images/news-2.png" alt="">
+            <p class="text-xs text-gray-500">Feb 05, 2027</p>
+            <h4 class="text-xl font-extrabold">Collecting 8 points for discount</h4>
+            <p class="font-medium text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+            <button class="font-bold">Learn More</button>
+          </div>
+          <!-- card 3 -->
+          <div class="max-w-72 mx-auto flex flex-col justify-center items-start p-6 rounded-xl shadow-xl border-2 space-y-3">
+            <img src="images/news-3.png" alt="">
+            <p class="text-xs text-gray-500">Feb 05, 2027</p>
+            <h4 class="text-xl font-extrabold">Collecting 8 points for discount</h4>
+            <p class="font-medium text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+            <button class="font-bold">Learn More</button>
+          </div>
+
+        </div>
+
+      </section>
 
     </main>
 
